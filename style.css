@@ -1,0 +1,41 @@
+.head {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+
+}
+
+img {
+    width: 200px;
+}
+footer p {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    color: aliceblue;
+}
+
+main {
+    height: 561px;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
