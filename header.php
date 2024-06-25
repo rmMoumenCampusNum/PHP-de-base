@@ -18,10 +18,4 @@
         <img src="./images/LogoSpider.jpeg" alt="Logo de Spider-Man version Miles Morales">
         <h1>Spider-Man : Across The Spider-Verse</h1>
     </div> 
-   <nav>
-    <ul>
-      <li><a href="index.php?page=MilesMorales">Miles Morales</a></li>
-      <li><a href="index.php?page=GwenStacy">Gwen Stacy</a></li>
-    </ul>
-   </nav>
   </header>

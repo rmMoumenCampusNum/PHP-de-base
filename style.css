@@ -58,17 +58,46 @@ h1 {
 }
 
 .mainAccueil {
-    height: 1200px;
+    display: flex;
+    height: 1080px;
     background-image: url(./images/Background2.jpg);
     background-size: 1920px;
     background-repeat: no-repeat;
 }
 
+.mainMiles label {
+    background-color: black;
+    padding: 5px;
+}
+
+.mainMiles form {
+    font-size: 20px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.raison {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainAccueil h2 {
+    background-color: black;
+    color: aliceblue;
+    font-family: "Fira Sans Extra Condensed";
+}
+
 .mainMiles {
-    height: 1080px;
+    height: 2080px;
+    background: url('./images/combatSpiderManTache.jpg.jpg') top no-repeat, 
+                url('./images/Background3.jpg') bottom no-repeat;
     background-size: 1920px;
-    background-image:url(./images/combatSpiderManTache.jpg);
     background-repeat: no-repeat;
+
 }
 
 .mainMiles h1 {
