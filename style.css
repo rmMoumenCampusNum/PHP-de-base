@@ -7,6 +7,27 @@
     align-items: center;
 }
 
+header ul {
+    list-style-type: none;
+}
+
+a:hover {
+    opacity: 80%;
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav {
+    color: aliceblue;
+    font-size:22px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    position: absolute;
+    right: 200px;
+    top: 73px;
+}
 
 footer {
     font-family: "Fira Sans Extra Condensed", sans-serif;
@@ -31,11 +52,26 @@ footer ul {
     color: aliceblue;
 }
 
-main {
-    height: 561px;
-}
-
 h1 {
     color: aliceblue;
     font-family: "Fira Sans Extra Condensed", sans-serif;
 }
+
+.mainAccueil {
+    height: 1200px;
+    background-image: url(./images/Background2.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+}
+
+.mainMiles {
+    height: 1080px;
+    background-size: 1920px;
+    background-image:url(./images/combatSpiderManTache.jpg);
+    background-repeat: no-repeat;
+}
+
+.mainMiles h1 {
+    text-align: center;
+}
+
