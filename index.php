@@ -1,5 +1,10 @@
 <?php   
 $page = $_GET['page'];
+
+if (empty($page)) {
+    $page = 'Accueil';
+}
+
  switch ($page){
     case 'GwenStacy':
         include 'GwenStacy.php';
@@ -7,17 +12,11 @@ $page = $_GET['page'];
     case 'Accueil':
         include 'Accueil.php';
         break;  
+    case 'MilesMorales':
+        include 'MilesMorales.php';
+        break;
     default:
-        include 'notfound.php';
+        include ('notfound.php');
         break;
 }
-
-if (($page=='MilesMorales')) {
-    include('MilesMorales.php');
-} else {
-    $page = 'Accueil';
-}
-
-route($page);
-
 ?>

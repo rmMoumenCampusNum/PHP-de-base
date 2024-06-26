@@ -1,7 +1,8 @@
 <?php $title="Gwen Stacy"; include ('header.php'); ?>
 
-<main>
+<main class="mainGwen">
     <h1>Gwen Stacy</h1>
+    <div class="formGwenP1">
     <form action="index.php?page=GwenStacy" method="POST">
                 <label for="civilite">Civilité :</label>
                 <select name="civilite" id="civilite">
@@ -22,6 +23,7 @@
                 <label for="email">Email :</label>
                 <input type="email" id="email" name="email">
                 <br><br>
+    </div>            
                 <div class="raison">
                     <label>Raison du message :</label><br>
                     <input type="radio" id="raison1" name="raison" value="Service comptable">

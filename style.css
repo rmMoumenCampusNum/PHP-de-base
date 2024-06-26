@@ -63,6 +63,19 @@ h1 {
     background-image: url(./images/Background2.jpg);
     background-size: 1920px;
     background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainAccueil a {
+    text-decoration: none;
+}
+
+.mainAccueil p {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
 }
 
 .mainMiles label {
@@ -104,3 +117,42 @@ h1 {
     text-align: center;
 }
 
+.mainGwen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./images/GwenStacy.png') top no-repeat, 
+                url('./images/GwenStacy2.jpg') bottom no-repeat;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    height: 2100px;
+}
+
+.mainGwen label {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.mainGwen form {
+    font-size: 20px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainError h1 {
+    height: 200px;
+}
+
+.mainError {
+    background-image: url(./images/404.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+}
