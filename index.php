@@ -1,22 +1,21 @@
-<?php   
+<?php
 $page = $_GET['page'];
 
 if (empty($page)) {
     $page = 'Accueil';
 }
 
- switch ($page){
+switch ($page) {
     case 'GwenStacy':
         include 'GwenStacy.php';
         break;
     case 'Accueil':
         include 'Accueil.php';
-        break;  
+        break;
     case 'MilesMorales':
         include 'MilesMorales.php';
         break;
     default:
-        include ('notfound.php');
+        include('notfound.php');
         break;
 }
-?>

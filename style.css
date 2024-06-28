@@ -22,7 +22,7 @@ header a {
 
 nav {
     color: aliceblue;
-    font-size:22px;
+    font-size: 22px;
     font-family: "Fira Sans Extra Condensed", sans-serif;
     position: absolute;
     right: 200px;
@@ -42,6 +42,7 @@ footer {
 img {
     width: 200px;
 }
+
 footer p {
     color: aliceblue;
     display: flex;
@@ -111,8 +112,8 @@ h1 {
 
 .mainMiles {
     height: 2080px;
-    background: url('./images/combatSpiderManTache.jpg.jpg') top no-repeat, 
-                url('./images/Background3.jpg') bottom no-repeat;
+    background: url('./images/combatSpiderManTache.jpg.jpg') top no-repeat,
+        url('./images/Background3.jpg') bottom no-repeat;
     background-size: 1920px;
     background-repeat: no-repeat;
 
@@ -126,8 +127,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('./images/GwenStacy.png') top no-repeat, 
-                url('./images/GwenStacy2.jpg') bottom no-repeat;
+    background: url('./images/GwenStacy.png') top no-repeat,
+        url('./images/GwenStacy2.jpg') bottom no-repeat;
     background-size: 1920px;
     background-repeat: no-repeat;
     height: 2100px;
@@ -168,11 +169,10 @@ h1 {
     left: 300px;
 }
 
-.boutonAccueil p, .boutonAccueil a {
+.boutonAccueil p,
+.boutonAccueil a {
     text-decoration: none;
     color: aliceblue;
     font-family: "Fira Sans Extra Condensed";
     font-size: 30px;
 }
-
-

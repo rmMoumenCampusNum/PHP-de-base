@@ -21,6 +21,8 @@ unset($_SESSION['form_errors']);
 unset($_SESSION['form_data']);
 unset($_SESSION['success']);
 
+
+
 // Vérifier si le formulaire a été soumis
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupération des données du formulaire
@@ -78,13 +80,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 }
+
 ?>
 <div class="boutonAccueil">
-<a href="index.php?page=Accueil"><p>Accueil</p></a>
+    <a href="index.php?page=Accueil">
+        <p>Accueil</p>
+    </a>
 </div>
 <main class="mainMiles">
     <h1>Miles Morales</h1>
-    <form action="index.php?page=MilesMorales" method="POST">
+    <form action="index.php?page=MilesMorales" method="POST" enctype= »multipart/form-data>
         <label for="civilite">Civilité :</label>
         <select name="civilite" id="civilite">
             <option value="Monsieur" <?php if (($form_data['civilite'] ?? '') == 'Monsieur') echo 'selected'; ?>>Monsieur</option>
@@ -121,6 +126,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <?php if (isset($errors['message'])) echo '<p style="color:red;">' . $errors['message'] . '</p>'; ?>
             <br><br>
         </div>
+            <input type="file" name="file">
+            <br>
         <button id="submit" type="submit">Envoyer</button>
         <?php if (!empty($success_message)) echo '<p style="color:green;">' . $success_message . '</p>'; ?>
     </form>
