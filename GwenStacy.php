@@ -1,5 +1,9 @@
 <?php $title="Gwen Stacy"; include ('header.php'); ?>
 
+<div class="boutonAccueil">
+<a href="index.php?page=Accueil"><p>Accueil</p></a>
+</div>
+
 <main class="mainGwen">
     <h1>Gwen Stacy</h1>
     <div class="formGwenP1">

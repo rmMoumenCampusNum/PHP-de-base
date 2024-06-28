@@ -1,4 +1,5 @@
-<?php $title = "Miles Morales";
+<?php
+$title = "Miles Morales";
 include('header.php'); ?>
 
 <?php
@@ -78,7 +79,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
+<div class="boutonAccueil">
+<a href="index.php?page=Accueil"><p>Accueil</p></a>
+</div>
 <main class="mainMiles">
     <h1>Miles Morales</h1>
     <form action="index.php?page=MilesMorales" method="POST">

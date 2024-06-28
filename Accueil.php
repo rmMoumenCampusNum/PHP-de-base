@@ -14,7 +14,4 @@ include('header.php'); ?>
     <a href="index.php?page=GwenStacy"><h2>Gwen Stacy</h2></a>
 </main>
 
-
-
-
 <?php include('footer.php'); ?>

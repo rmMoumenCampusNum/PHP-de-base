@@ -162,4 +162,17 @@ h1 {
     justify-content: center;
 }
 
+.boutonAccueil {
+    position: absolute;
+    top: 78px;
+    left: 300px;
+}
+
+.boutonAccueil p, .boutonAccueil a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Fira Sans Extra Condensed";
+    font-size: 30px;
+}
+
 
