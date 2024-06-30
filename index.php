@@ -1,10 +1,6 @@
 <?php
 $page = $_GET['page'];
 
-if (empty($page)) {
-    $page = 'Accueil';
-}
-
 switch ($page) {
     case 'GwenStacy':
         include 'GwenStacy.php';
@@ -18,4 +14,8 @@ switch ($page) {
     default:
         include('notfound.php');
         break;
+}
+
+if (empty($page)) {
+    $page = 'Accueil';
 }
